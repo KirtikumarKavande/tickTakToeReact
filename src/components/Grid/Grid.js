@@ -1,11 +1,7 @@
-import React from 'react'
-import './grid.css'
-const Grid = () => {
-  return (
-    <div className='grid'>
-        *
-    </div>
-  )
-}
+import React from "react";
+import "./grid.css";
+const Grid = ({currentState}) => {
+  return <div className="grid">{currentState}</div>;
+};
 
-export default Grid
+export default Grid;
